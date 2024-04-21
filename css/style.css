@@ -704,7 +704,6 @@ nav, .container {
 
 .contact__left {
     text-align: left;
-    padding-right: 20px; 
 
 }
 
@@ -720,10 +719,6 @@ nav, .container {
 
 }
 
-.cere_oferta {
-    padding: 3rem;
-
-}
 
 .cere_oferta__title {
 
@@ -791,14 +786,16 @@ nav, .container {
 .cards p {
     margin-bottom: 1rem;
 }
+.produse2__title {
+    background-color: #C5D4CB;
+}
 .produse2__title, .de_ce__title {
     text-align: center;
     margin: 0 auto;
     font-size: 3rem;
 }
-.produse2__title h3, .de_ce__title h2 {
+.produse2__title h3, .de_ce__title h3 {
     margin-bottom: 1rem;
-    font-size: 3rem;
     
 }
 .produse2__title p {
@@ -923,9 +920,9 @@ nav, .container {
     }
 
 
-    h2 {
+    /* h2 {
         font-size: 1rem;
-    }
+    } */
     header {
         display: flex;
         justify-content: space-between; 
@@ -1231,16 +1228,7 @@ nav, .container {
     }
 
     .contact__left {
-        text-align: left;
-         
-
-    }
-
-
-    .cere_oferta {
-        padding: 3rem;
-        margin-left: 10rem
-
+        text-align: left;       
     }
 
     .cere_oferta__form {
@@ -1465,17 +1453,23 @@ nav, .container {
     .intro__title {
         grid-column: 1; /* Left column */
         grid-row: 1; /* Top row */
-
         font-weight: 600;
         text-align: center;  
         margin-bottom: 1rem;
     }
-    .intro__title, .produse__title, .adresam__title, .eco__title, .clienti__title, .produse2__title, .de_ce__title{
+    .intro__title, 
+    .produse__title, 
+    .adresam__title, 
+    .eco__title, 
+    .clienti__title, 
+    .produse2__title, 
+    .de_ce__title{
         font-size: 2rem;
     }
 
     .intro__descr, .produse__descr, .adresam__text, .eco__descr{
-        font-size: 1;
+        font-size: 1rem;
+        text-align: center;
     }
 
     .intro__title p, .produse__title p, .adresam__title p, .eco__title p, .clienti__title p{
@@ -1489,7 +1483,7 @@ nav, .container {
         grid-column: 1; /* Left column */
         grid-row: 2; /* Second row */
         font-size: 1rem;
-        text-align: justify;
+
     }
 
     .intro__btn  {
@@ -1497,6 +1491,7 @@ nav, .container {
         grid-row: 3; /* Third row */
         margin: 0 auto;
         letter-spacing: normal;
+        margin-bottom: 1rem;
     }
     .intro__btn a {
         margin-left: 5px;
@@ -1518,11 +1513,12 @@ nav, .container {
     }
     .imagine_role img {
         display: none;
-        max-width: 15rem;
+        max-width: 100%;
+        width: 100%;
         height: auto;
-        border-radius: 30px;
         display: block;
         margin: 0 auto;
+        border-radius: 30px;
         
     }
     
@@ -1553,7 +1549,6 @@ nav, .container {
     
     .produse__descr {
         grid-row: 2;
-        text-align: justify;
     }
     
     .produse__pict {
@@ -1595,7 +1590,6 @@ nav, .container {
     
     .adresam__text {
         grid-row: 2;
-        text-align: justify;
     }
     
     .adresam__pict {
@@ -1637,7 +1631,6 @@ nav, .container {
     .eco__descr {
         grid-row: 2;
         margin-bottom: 2rem;
-        text-align: justify;
         
     }
     
@@ -1661,7 +1654,6 @@ nav, .container {
     }
     
     .clienti {
-        padding: 3rem;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: auto;
@@ -1748,17 +1740,12 @@ nav, .container {
         margin-bottom: 1rem;
     }
     .despre__text p {
-        
-        text-align: justify;
         margin: 0 auto;
-        font-size: 1rem;
-   
-    
+        text-align: left;
     }
     
 
     .contact {
-        padding: 3rem;
         display: grid;
         grid-template-columns: repeat(1, 1fr); /* One column for Contact and one for Cere oferta */
         grid-template-rows: auto;
@@ -1771,14 +1758,14 @@ nav, .container {
     .contact__left {
         grid-row: 1;
         text-align: center;
-        padding-right: 20px; 
     
     }
     
     .contact__title {
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: 600;
         margin: 0 auto;
+        padding-bottom: 1rem;
     }
     
     .contact__details p {
@@ -1791,15 +1778,16 @@ nav, .container {
     
     .cere_oferta{
         grid-row: 2; 
-        padding: 3rem;
         margin: 0 auto;
     
     }
     
     .cere_oferta__title {
-        margin-bottom: 10px;
-        font-size: 1.5rem;
-        font-weight: 600
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
     }
     
     .cere_oferta__form {
