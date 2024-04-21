@@ -1482,6 +1482,7 @@ nav, .container {
         grid-column: 1; /* Left column */
         grid-row: 2; /* Second row */
         font-size: 1rem;
+        margin: 0 auto;
 
     }
 
@@ -1491,6 +1492,7 @@ nav, .container {
         margin: 0 auto;
         letter-spacing: normal;
         margin-bottom: 1rem;
+        font-size: 1rem;
     }
     .intro__btn a {
         margin-left: 5px;
