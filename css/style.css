@@ -521,13 +521,14 @@ nav, .container {
 .adresam__pict .product {
     background-color: #ffffff;
     border-radius: 30px;
-    max-width: 100%;
+    min-width: 100%;
+    max-width: auto;
     min-height: 300px;
     max-height: auto;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    max-width: 100%;
+ 
 
 
 }
